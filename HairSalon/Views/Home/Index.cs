@@ -1,0 +1,6 @@
+@{
+  Layout = "_Layout";
+}
+
+< h1 > Hey! Get your hair did!</h1>
+<p>@Html.ActionLink("See all clients", "Index", "Clients")</ p > < p > @Html.ActionLink("Checkout all our stylists", "Index", "Stylists") </ p >
