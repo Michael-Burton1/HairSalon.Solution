@@ -13,7 +13,13 @@
   @Html.HiddenFor(model => model.StylistId)
 
   @Html.LabelFor(model => model.Name)
-  @Html.EditorFor(model => model.Name)
+  @Html.EditorFor(model => model.Name, new {@class = "form-control", type="text", required="text"})
+
+  @Html.LabelFor(model => model.Speciallity)
+  @Html.EditorFor(model => model.Speciallity, new {@class = "form-control", type="text", required="text"})
+
+  @Html.LabelFor(model => model.PayRate)
+  @Html.EditorFor(model => model.PayRate, new {@class = "form-control", type="number", step=".01", required="number"})
 
   <input type="submit" value="Save" />
 }
