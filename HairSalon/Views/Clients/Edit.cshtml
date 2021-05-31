@@ -15,6 +15,14 @@
   @Html.LabelFor(model => model.Name)
   @Html.EditorFor(model => model.Name)
 
+
+  @Html.LabelFor(model => model.PhoneNumber)
+  @Html.TextBoxFor(model => model.PhoneNumber)<br>
+
+  @Html.LabelFor(model => model.Age)
+  @Html.TextBoxFor(model => model.Age,
+new {@class = "form-control", type="number", required="number"})<br>
+
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
 
