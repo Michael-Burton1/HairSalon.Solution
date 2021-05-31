@@ -31,11 +31,11 @@
     * Add this to your Appsettings.json file
 
 
-  {
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=michael_burton;uid=root;pwd=[YOUR PASSWORD];"
-    }
-  }
+ > {<br>
+    > "ConnectionStrings": { <br>
+  >  "DefaultConnection": "Server=localhost;Port=3306; database=michael_burton;uid=root;pwd=[YOUR PASSWORD];"<br>
+ >   }<br>
+  >}
 
 * replace [YOUR PASSWORD] with your MySQL password
 Open terminal and run this command with your MySQL password replacing [YOUR PASSWORD] : mysql -uroot -p[YOUR PASSWORD]
@@ -44,12 +44,13 @@ Open terminal and run this command with your MySQL password replacing [YOUR PASS
   * USE michael_burton;
   * CREATE TABLE {clients (ClientId INT, Name VARCHAR(255), PhoneNumber VARCHAR(255), Age INT, StylistId INT)}
   * CREATE TABLE {Stylist (StylistId INT, Name VARCHAR(255), Speciallity VARCHAR(255), PayRate DECIMAL(2)}
-  * the two CREATE commands will create tables for Clients and Stylists
+  * these two CREATE commands will create tables for Clients and Stylists
 
 
 5. To run the app:
   * Navigate to the {HairSalon} directory in your command line
-  * Run the command: dotnet restore  to restore the dependencies that are listed in {HairSalon.csproj}
+  * Run the command: dotnet restore 
+  to restore the dependencies that are listed in {HairSalon.csproj}
   * Run the command: dotnet build   to build the project and its dependencies   
   * Finally, run the command: dotnet run   to run the project!
   
