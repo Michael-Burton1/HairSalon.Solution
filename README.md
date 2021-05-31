@@ -2,7 +2,7 @@
 
 #### By Michael Burton
 
-#### this application allows user to input Clients and Employees in the browser. The  user can then  navigate pages for Clients and Employees to view details about both. along with having full CRUD funtionallity to update the database.
+#### This application allows user to input Clients and Employees in the browser. The  user can then  navigate pages for Clients and Employees to view details about both. along with having full CRUD funtionallity to update the database.
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@
 * MS Test
 * .NET 5 SDK framwork
 * Razor
-*MySql
+* MySql
 
 
 ### Prerequisites
